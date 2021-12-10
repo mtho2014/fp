@@ -41,6 +41,9 @@ public:
     vector<float> foodGoals;
 };
 void userProfile::login(){
+    // lets user sign up, adds their data to user.txt file but doesnt recognize name when logging in again.
+    // data in user.txt file adds "user info" before name
+    
     cout << "Welcome! Please login or create an account to continue" << endl;
     cout << "1: login\n"
          << "2: sign up" << endl;
